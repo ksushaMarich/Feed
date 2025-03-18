@@ -6,27 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		625D18552D7FAF0F0083C9E1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 625D18542D7FAF0F0083C9E1 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		16789FDD2D7770320066AB1B /* Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16789FDD2D7770320066AB1B /* NewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		16789FEF2D7770340066AB1B /* Exceptions for "Feed" folder in "Feed" target */ = {
+		16789FEF2D7770340066AB1B /* Exceptions for "NewsFeed" folder in "NewsFeed" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 16789FDC2D7770320066AB1B /* Feed */;
+			target = 16789FDC2D7770320066AB1B /* NewsFeed */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		16789FDF2D7770320066AB1B /* Feed */ = {
+		16789FDF2D7770320066AB1B /* NewsFeed */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				16789FEF2D7770340066AB1B /* Exceptions for "Feed" folder in "Feed" target */,
+				16789FEF2D7770340066AB1B /* Exceptions for "NewsFeed" folder in "NewsFeed" target */,
 			);
-			path = Feed;
+			path = NewsFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625D18552D7FAF0F0083C9E1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +50,7 @@
 		16789FD42D7770320066AB1B = {
 			isa = PBXGroup;
 			children = (
-				16789FDF2D7770320066AB1B /* Feed */,
+				16789FDF2D7770320066AB1B /* NewsFeed */,
 				16789FDE2D7770320066AB1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +58,7 @@
 		16789FDE2D7770320066AB1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16789FDD2D7770320066AB1B /* Feed.app */,
+				16789FDD2D7770320066AB1B /* NewsFeed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16789FDC2D7770320066AB1B /* Feed */ = {
+		16789FDC2D7770320066AB1B /* NewsFeed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16789FF02D7770340066AB1B /* Build configuration list for PBXNativeTarget "Feed" */;
+			buildConfigurationList = 16789FF02D7770340066AB1B /* Build configuration list for PBXNativeTarget "NewsFeed" */;
 			buildPhases = (
 				16789FD92D7770320066AB1B /* Sources */,
 				16789FDA2D7770320066AB1B /* Frameworks */,
@@ -74,13 +79,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				16789FDF2D7770320066AB1B /* Feed */,
+				16789FDF2D7770320066AB1B /* NewsFeed */,
 			);
-			name = Feed;
+			name = NewsFeed;
 			packageProductDependencies = (
+				625D18542D7FAF0F0083C9E1 /* Alamofire */,
 			);
 			productName = Feed;
-			productReference = 16789FDD2D7770320066AB1B /* Feed.app */;
+			productReference = 16789FDD2D7770320066AB1B /* NewsFeed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16789FD82D7770320066AB1B /* Build configuration list for PBXProject "Feed" */;
+			buildConfigurationList = 16789FD82D7770320066AB1B /* Build configuration list for PBXProject "NewsFeed" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,12 +113,15 @@
 			);
 			mainGroup = 16789FD42D7770320066AB1B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				625D18532D7FAF0F0083C9E1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 16789FDE2D7770320066AB1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16789FDC2D7770320066AB1B /* Feed */,
+				16789FDC2D7770320066AB1B /* NewsFeed */,
 			);
 		};
 /* End PBXProject section */
@@ -147,12 +156,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MKRHW72LY3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Feed/Info.plist;
+				INFOPLIST_FILE = NewsFeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -175,12 +184,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MKRHW72LY3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Feed/Info.plist;
+				INFOPLIST_FILE = NewsFeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16789FD82D7770320066AB1B /* Build configuration list for PBXProject "Feed" */ = {
+		16789FD82D7770320066AB1B /* Build configuration list for PBXProject "NewsFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16789FF32D7770340066AB1B /* Debug */,
@@ -325,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16789FF02D7770340066AB1B /* Build configuration list for PBXNativeTarget "Feed" */ = {
+		16789FF02D7770340066AB1B /* Build configuration list for PBXNativeTarget "NewsFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16789FF12D7770340066AB1B /* Debug */,
@@ -335,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		625D18532D7FAF0F0083C9E1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		625D18542D7FAF0F0083C9E1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 625D18532D7FAF0F0083C9E1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 16789FD52D7770320066AB1B /* Project object */;
 }
